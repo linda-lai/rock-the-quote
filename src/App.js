@@ -36,9 +36,11 @@ class App extends Component {
     const imageURL = this.state.image
     return (
       <div className="quotes-wrapper" style={{ backgroundImage: `url(${imageURL})` }}>
-        <h2>{this.state.quote}</h2>
-        <h3>{this.state.author}</h3>
-        <button onClick={this.handleQuote}>INSPIRATION ACTIVATE!</button>
+        <h2 className="quote-main">{this.state.quote}</h2>
+        <h3 className="quote-author">{this.state.author}</h3>
+        <div className="quote-button">
+          <button onClick={this.handleQuote}>MOTIVATE ME!</button>
+        </div>
 
         {/* <img className= "quote-image" src={imageURL} alt="A random image from Unsplash API"/> */}
       </div>
