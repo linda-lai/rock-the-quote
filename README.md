@@ -8,7 +8,6 @@ A simple motivation app to practice working with external APIs in React and Expr
 ## Background
 Using the [Unsplash](https://unsplash.com/developers) and [Positive Quotes](http://positive-quotes.herokuapp.com/v1/) APIs, Rock the Quote is a simple motivation app built in React and Express.
 
-
 ![Rock the Quote](/public/rock-the-quote.png)
 
 ## Challenge
